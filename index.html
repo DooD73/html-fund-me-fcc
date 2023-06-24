@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[FCC] Fund Me Dapp - Diego Fasolo</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Fund Me Dapp</h1>
+        <p>
+          This is a simple Dapp that allows you to fund a contract with ETH.
+        </p>
+      </div>
+      <button id="connect-btn" class="btn">Connect</button>
+    </header>
+    <div class="container">
+      <form id="form">
+        <input id="ethAmount-input" placeholder="0.1" />
+        <label for="fund"><p>ETH AMOUNT</p></label>
+        <button id="fund-btn" class="btn">Fund</button>
+      </form>
+      <div class="balance--container">
+        <p id="balance-output">Balance: 0.0 ETH</p>
+        <button id="balance-btn" class="btn">Balance</button>
+      </div>
+      <button id="withdraw-btn" class="btn">Withdraw</button>
+    </div>
+  </body>
+
+  <script src="index.js" type="module"></script>
+</html>

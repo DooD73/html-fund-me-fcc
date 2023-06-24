@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e6e6e6;
+}
+
+header {
+  background-color: #009ffd;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: horizontal;
+  padding: 30px;
+}
+
+header h1 {
+  margin-bottom: 4px;
+}
+
+header > .btn {
+  padding: 10px 20px;
+  border-radius: 1000px;
+  border: none;
+  background-color: #fff;
+  color: #009ffd;
+  display: inline;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header > .btn:hover {
+  background-color: #009ffd;
+  color: #fff;
+  outline: 2px solid #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 5% auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .btn {
+  padding: 10px 24px;
+  border-radius: 1000px;
+  border: none;
+  background-color: #009ffd;
+  color: #fff;
+  display: inline;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container .btn:hover {
+  background-color: #fff;
+  color: #009ffd;
+  outline: 2px solid #009ffd;
+}
+
+.container form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: horizontal;
+  margin: 36px 0;
+  gap: 12px;
+}
+
+.container form input {
+  padding: 10px 20px;
+  border-radius: 1000px;
+  border: none;
+  background-color: #fff;
+  color: #009ffd;
+  display: inline;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+}
+
+.container form input:focus {
+  outline: 2px solid #009ffd;
+}
+
+.container form p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #009ffd;
+}
+
+.container .balance--container {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: horizontal;
+  margin: 36px 0;
+  gap: 12px;
+}
+
+.container .balance--container p {
+  padding: 10px 20px;
+  border-radius: 1000px;
+  border: none;
+  background-color: #fff;
+  color: #009ffd;
+  display: inline;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+}
+
+.container #withdraw-btn {
+  margin: 36px 0;
+  background-color: #ffa400;
+}
+
+.container #withdraw-btn:hover {
+  background-color: #fff;
+  color: #ffa400;
+  outline: 2px solid #ffa400;
+}
